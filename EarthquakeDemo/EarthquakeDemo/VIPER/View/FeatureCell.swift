@@ -39,7 +39,7 @@ extension FeatureCell {
         self.labelDate.text = feature.properties.time
         self.labelTitle.text = feature.properties.place
         self.labelType.text = feature.properties.type
-        self.labelMagnitude.text = String(feature.properties.mag)
+        self.labelMagnitude.text = String(Double(feature.properties.mag))
     }
 }
 
