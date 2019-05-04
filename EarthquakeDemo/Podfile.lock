@@ -1,0 +1,24 @@
+PODS:
+  - BrightFutures (7.0.0):
+    - Result (~> 4.0.0)
+  - Result (4.0.1)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - BrightFutures
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BrightFutures
+    - Result
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  BrightFutures: 7d7436e937dfc83d814c11920f157fc2a53f5bd5
+  Result: a6e784bebf48b471d59cddc1adb81f41f678c487
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: a8a3791c0fcdf2f1160b635fb410ecb6663d0fcb
+
+COCOAPODS: 1.5.3

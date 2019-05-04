@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeatureCell" rowHeight="104" id="KGk-i7-Jjw" customClass="FeatureCell" customModule="EarthquakeDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="114"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="113.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ze-9y-tO5">
+                        <rect key="frame" x="5" y="5" width="310" height="103.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Earthquake" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnz-wu-VS3">
+                                <rect key="frame" x="243.5" y="5" width="61.5" height="17"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Italic" family="Avenir Next" pointSize="12"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type:" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGE-PM-spx">
+                                <rect key="frame" x="210.5" y="5" width="30" height="17"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11km WNW of San Rafael del Yuma, Dominican Republic" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qEC-w0-rtV">
+                                <rect key="frame" x="10" y="27" width="290" height="44"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3.2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vf2-G8-CXJ">
+                                <rect key="frame" x="10" y="76" width="20.5" height="19.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
+                                <color key="textColor" red="0.6588235294117647" green="0.1803921568627451" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magnitude" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1y-q6-oqc">
+                                <rect key="frame" x="33.5" y="76" width="70.5" height="19.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-MediumItalic" family="Avenir Next" pointSize="14"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="May 4, 6:54 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssl-0s-7uE">
+                                <rect key="frame" x="215" y="76" width="85" height="16.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="qEC-w0-rtV" firstAttribute="leading" secondItem="6Ze-9y-tO5" secondAttribute="leading" constant="10" id="4qo-aI-R5c"/>
+                            <constraint firstItem="e1y-q6-oqc" firstAttribute="top" secondItem="qEC-w0-rtV" secondAttribute="bottom" constant="5" id="DzX-n2-2nb"/>
+                            <constraint firstItem="e1y-q6-oqc" firstAttribute="leading" secondItem="vf2-G8-CXJ" secondAttribute="trailing" constant="3" id="Huf-TN-LYw"/>
+                            <constraint firstItem="vf2-G8-CXJ" firstAttribute="top" secondItem="qEC-w0-rtV" secondAttribute="bottom" constant="5" id="MY8-oc-yg1"/>
+                            <constraint firstItem="Ssl-0s-7uE" firstAttribute="top" secondItem="qEC-w0-rtV" secondAttribute="bottom" constant="5" id="OG3-na-4Fw"/>
+                            <constraint firstItem="qEC-w0-rtV" firstAttribute="top" secondItem="rnz-wu-VS3" secondAttribute="bottom" constant="5" id="Snp-ze-k4Q"/>
+                            <constraint firstAttribute="trailing" secondItem="rnz-wu-VS3" secondAttribute="trailing" constant="5" id="cIB-Ap-l9s"/>
+                            <constraint firstItem="vf2-G8-CXJ" firstAttribute="leading" secondItem="6Ze-9y-tO5" secondAttribute="leading" constant="10" id="ghG-Hj-Row"/>
+                            <constraint firstAttribute="trailing" secondItem="Ssl-0s-7uE" secondAttribute="trailing" constant="10" id="hAO-39-6qC"/>
+                            <constraint firstItem="rnz-wu-VS3" firstAttribute="top" secondItem="6Ze-9y-tO5" secondAttribute="top" constant="5" id="hdy-mZ-e8Z"/>
+                            <constraint firstAttribute="trailing" secondItem="qEC-w0-rtV" secondAttribute="trailing" constant="10" id="hjb-Sd-Wqo"/>
+                            <constraint firstItem="aGE-PM-spx" firstAttribute="top" secondItem="6Ze-9y-tO5" secondAttribute="top" constant="5" id="nJj-Dk-yi3"/>
+                            <constraint firstItem="rnz-wu-VS3" firstAttribute="leading" secondItem="aGE-PM-spx" secondAttribute="trailing" constant="3" id="nMR-5U-Rnx"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6Ze-9y-tO5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="8a7-nV-Iek"/>
+                    <constraint firstAttribute="bottom" secondItem="6Ze-9y-tO5" secondAttribute="bottom" constant="5" id="Tb4-1D-42Z"/>
+                    <constraint firstAttribute="trailing" secondItem="6Ze-9y-tO5" secondAttribute="trailing" constant="5" id="p78-bU-PaE"/>
+                    <constraint firstItem="6Ze-9y-tO5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="pZs-ub-cST"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="labelDate" destination="Ssl-0s-7uE" id="ggW-D2-H2p"/>
+                <outlet property="labelMagnitude" destination="vf2-G8-CXJ" id="SWe-Ls-AQ3"/>
+                <outlet property="labelTitle" destination="qEC-w0-rtV" id="22P-ZK-w8k"/>
+                <outlet property="labelType" destination="rnz-wu-VS3" id="gDT-Mc-82d"/>
+                <outlet property="viewOverlay" destination="6Ze-9y-tO5" id="deT-Jj-7EP"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="185.30734632683661"/>
+        </tableViewCell>
+    </objects>
+</document>
